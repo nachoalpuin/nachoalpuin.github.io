@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<title>Nacho Alpuin Portfolio</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imgs/nacho-logo.ico">
+
+	<!-- Font -->
+	<link href='http://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="css/timber.css" />
+	<link rel="stylesheet" href="css/templates.css" />
+	<link rel="stylesheet" href="css/skin.css" />
+	
+	<!-- Bottom Scripts -->
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/timber.master.min.js"></script>
+	<script src="js/template-functions.js"></script>
+	
+	<!-- Animated images -->
+
+	
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	
+	
+	<script type="text/javascript">
+		$("a.fancybox")
+		.attr('rel', 'gallery')
+		.fancybox({
+			padding : 0
+		});
+	</script>
+	
+	
+
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	</script>
+
+</head>
+<body class="home-page">
+
+	<!-- Side Navigation Menu -->
+	<aside id="mobile-access" class="side-navigation-wrapper enter-right">
+		<div class="side-navigation-header">
+			<div class="logo">
+				<a href="index.html"><img src="imgs/logo-dark.png" alt="Nacho Logo" /></a>
+			</div>
+			<div id="side-nav-hide" class="navigation-hide">
+				<a href="">
+					<span class="icon-cancel medium"></span>
+				</a>
+			</div>
+		</div>
+		
+		<section class="section-block contact-2 bkg-grey-ultralight">
+					<div class="row">
+						<div class="column width-12">
+							
+							<h6 class="color-gray no-margin-top">CONTACTO</h6>
+							<div class="contact-form-container">
+								<form class="contact-form" action="php/send-email.php" method="post" novalidate>
+									<div class="row">
+										<div class="column width-6">
+											<input type="text" name="fname" class="form-fname form-element large" placeholder="Nombre*" tabindex="1" required>
+										</div>
+										<div class="column width-6">
+											<input type="text" name="lname" class="form-lname form-element large" placeholder="Apellido" tabindex="2">
+										</div>
+										<div class="column width-6">
+											<input type="email" name="email" class="form-email form-element large" placeholder="Email*" tabindex="3" required>
+										</div>
+										<div class="column width-6">
+											<input type="text" name="website" class="form-website form-element large" placeholder="Sitio Web" tabindex="4">
+										</div>
+										<div class="column width-6">
+											<input type="text" name="honeypot" class="form-honeypot form-element large">
+										</div>
+									</div>
+									<div class="row">
+										<div class="column width-12">
+											<textarea name="message" class="form-message form-element medium" placeholder="Mensaje*" tabindex="5" required></textarea>
+											<div class="clear"></div>
+											<input type="submit" value="Enviar" class="form-submit medium button bkg-charcoal bkg-hover-charcoal color-white color-hover-white">
+										</div>
+									</div>
+								</form>
+								<div class="form-response"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+		
+		
+		
+		<div class="side-navigation-footer">
+			
+			&copy; 2014 Ignacio Alpuin. Los contenidos presentados en este portfolio son propiedad de los clientes y/o marcas respectivas. Todos los derechos reservados.
+		</div>
+	</aside>
+	<!-- Side Navigation Menu End -->
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+
+			<!-- Header -->
+			<header class="header-3 header" data-helper-in-threshold="300" data-helper-out-threshold="500" data-sticky-threshold="300" data-compact-threshold="300">
+				<div class="header-inner">
+					<div class="row nav-bar reveal-side-navigation">
+						<div class="column width-12 nav-bar-inner">
+							<div class="logo">
+								<a href="#"><img src="imgs/logo-dark.png" alt="Nacho Logo" /></a>
+							</div>
+							<div id="side-nav-show" class="navigation-show">
+								<a href="#">
+									<span class="icon-mail medium"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix reveal-side-navigation">
+
+				<!-- Portfolio Grid Section 5 -->
+				<div class="section-block portfolio-5 full-width no-margins">
+					<div class="row">
+						<div class="column width-12">
+							<div class="row content-grid-3 masonry-grid">
+								<div class="grid-item design">
+									<div class="thumbnail">
+										<a class="overlay-link fancybox" href="imgs/portfolio/Quiero-Ganar_Facebook-App_Step01.jpg" rel="gallery01">
+											<img src="imgs/thumbs/tigo_fb.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Dise&ntilde;o de aplicaci&oacute;n para Facebook</span><br>
+														<span class="project-description">Tigo Colombia</span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="hidden">
+											<a class="fancybox" href="imgs/portfolio/Quiero-Ganar_Facebook-App_Step02.jpg" rel="gallery01"></a>
+										</div>	
+									</div>
+								</div>
+								<div class="grid-item design photography">
+									<div class="thumbnail">
+										<a class="overlay-link fancybox" href="imgs/portfolio/MobiPago.jpg" rel="gallery01">
+											<img src="imgs/thumbs/logofolio.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Cat&Aacute;logo de logos</span><br>
+														<span class="project-description">Varios clientes</span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="hidden">
+											<!-- Logos 01 -->
+												<a class="fancybox" href="imgs/portfolio/ParkingMobi.jpg" rel="gallery01"></a>
+												<a class="fancybox" href="imgs/portfolio/Amaru.jpg" rel="gallery01"></a>
+												<a class="fancybox" href="imgs/portfolio/ContraLasCuerdas.jpg" rel="gallery01"></a>
+												<a class="fancybox" href="imgs/portfolio/Goool.jpg" rel="gallery01"></a>
+												<a class="fancybox" href="imgs/portfolio/Intese.jpg" rel="gallery01"></a>
+												<a class="fancybox" href="imgs/portfolio/ColorBox.jpg" rel="gallery01"></a>
+												<a class="fancybox" href="imgs/portfolio/TwilightGroupUSA.jpg" rel="gallery01"></a>
+										</div>	
+									</div>
+								</div>
+								<div class="grid-item design portrait">
+									<div class="thumbnail">
+										<a class="overlay-link fancybox" href="imgs/portfolio/Claro_Morris.jpg" rel="gallery01">
+											<img src="imgs/thumbs/claro_mini.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Dise&ntilde;o promo Mini Cooper</span><br>
+														<span class="project-description">Claro Paraguay.</span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="hidden">
+											<!-- Claro Mini -->
+											<a class="fancybox" href="imgs/portfolio/Claro_Morris_02.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/Claro_Morris_03.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/Claro_Morris_04.jpg" rel="gallery01"></a>
+										</div>	
+									</div>
+								</div>
+								<div class="grid-item identity portrait">
+									<div class="thumbnail">
+										<a class="overlay-link fancybox" href="imgs/portfolio/LTP_LPYLT_Discos_Unclean.jpg" rel="gallery01">
+											<img src="imgs/thumbs/ltp_tormenta.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Arte y dise&ntilde;o de disco</span><br>
+														<span class="project-description">Latejapride* - Las palabras y la tormenta</span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="hidden">
+											<!-- LTP Las Palabras -->
+											<a class="fancybox" href="imgs/portfolio/LTP_LPYLT_Discos_Unclean_02.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/LTP_LPYLT_booklet_002.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/LTP_LPYLT_booklet_003.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/LTP_LPYLT_booklet_004.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/LTP_LPYLT_Afiches.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/LTP_LPYLT_facebookCovers.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/LTP_LPYLT_LaMarchaTropical.jpg" rel="gallery01"></a>
+										</div>	
+									</div>
+								</div>
+								<div class="grid-item web-design photography">
+									<div class="thumbnail">
+										<a class="overlay-link fancybox" href="imgs/portfolio/QML_00.jpg" rel="gallery01">
+											<img src="imgs/thumbs/QML_thumb.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Dise&ntilde;o web y logo</span><br>
+														<span class="project-description">Quienmelleva.uy</span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="hidden">
+											<!-- QML -->
+											<a class="fancybox" href="imgs/portfolio/QML_01.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/QML_02.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/QML_03.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/QML_04.jpg" rel="gallery01"></a>
+										</div>	
+									</div>
+								</div>
+								<div class="grid-item identity">
+									<div class="thumbnail">
+										<a class="overlay-link fancybox" href="imgs/portfolio/GSM_01.jpg" rel="gallery01">
+											<img src="imgs/thumbs/GSM_Free.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Dise&ntilde;o web y maquetaci&oacute;n</span><br>
+														<span class="project-description">GSM Free Uruguay</span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="hidden">
+											<!-- GSM -->
+											<a class="fancybox" href="imgs/portfolio/GSM_02.jpg" rel="gallery01"></a>
+										</div>	
+									</div>
+								</div>
+								<div class="grid-item photography large">
+									<div class="thumbnail">
+										<a class="overlay-link fancybox" href="imgs/portfolio/Barca_00.jpg" rel="gallery01">
+											<img src="imgs/thumbs/fcb_fanApp.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Propuesta de redise&ntilde;o para app de Bar&ccedil;a Fans</span><br>
+														<span class="project-description">Tigo Colombia & FC Barcelona</span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="hidden">
+											<!-- BARCELONA -->
+											<a class="fancybox" href="imgs/portfolio/Barca_02.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/Barca_03.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/Barca_04.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/Barca_05.jpg" rel="gallery01"></a>
+										</div>	
+									</div>
+								</div>
+								<div class="grid-item identity">
+									<div class="thumbnail">
+										<a class="overlay-link fancybox" href="imgs/portfolio/Illus_01.jpg" rel="gallery01">
+											<img src="imgs/thumbs/ilustraciones_varias.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Ilustraci&Oacute;n, modelado 3D, Animaci&Oacute;n</span><br>
+														<span class="project-description">Clientes Varios</span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="hidden animGallery">
+										
+											<!-- ILUSTRACIONES VARIAS -->
+											
+										</div>
+									</div>
+								</div>
+								<div class="grid-item design portrait">
+									<div class="thumbnail">
+										<a class="overlay-link fancybox" href="imgs/portfolio/CLC_01.jpg" rel="gallery01">
+											<img src="imgs/thumbs/clc_disco.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Arte y dise&ntilde;o de disco</span><br>
+														<span class="project-description">Contra Las Cuerdas</span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="hidden">
+											<!-- CLC -->
+											<a class="fancybox" href="imgs/portfolio/CLC_02.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/CLC_04.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/CLC_05.jpg" rel="gallery01"></a>
+										</div>
+									</div>
+								</div>
+								<div class="grid-item web-design photography">
+									<div class="thumbnail">
+										<a class="overlay-link fancybox" href="imgs/portfolio/Logos_Alt_01.jpg" rel="gallery01">
+											<img src="imgs/thumbs/other_logos.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Web & Mobile App Logos</span><br>
+														<span class="project-description">Varios Clientes</span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="hidden">
+											<!-- OTROS LOGOS -->
+											<a class="fancybox" href="imgs/portfolio/Logos_Alt_02.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/Logos_Alt_03.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/Logos_Alt_04.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/Logos_Alt_06.jpg" rel="gallery01"></a>
+											<a class="fancybox" href="imgs/portfolio/Logos_Alt_07.jpg" rel="gallery01"></a>
+										</div>
+									</div>
+								</div>
+								<div class="grid-item identity">
+									<div class="thumbnail">
+										<a class="overlay-link fancybox" href="imgs/portfolio/LTP_RC_01.jpg" rel="gallery01">
+											<img src="imgs/thumbs/ltp_rompecabezas.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Arte y dise&ntilde;o de disco</span><br>
+														<span class="project-description">Latejapride* - Rompecabezas</span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="hidden">
+											<!-- LTP RC -->
+											<a class="fancybox" href="imgs/portfolio/LTP_RC_02.jpg" rel="gallery01"></a>
+										</div>
+									</div>
+								</div>
+								<div class="grid-item design">
+									<div class="thumbnail">
+										<!-- <a class="overlay-link fancybox fancybox.iframe" href="imgs/portfolio/ltpvisuales.html" rel="gallery01"> -->
+										<a class="overlay-link fancybox" href="imgs/portfolio/ltp_visuales.gif" rel="gallery01">
+											<img src="imgs/thumbs/visuales_ltp.jpg" alt=""/>
+											<span class="overlay-info animation-fade-in">
+												<span>
+													<span>
+														<span class="project-title">Dise&ntilde;o, edici&oacute;n, animaci&oacute;n y proyecci&oacute;n de visuales en vivo</span><br>
+														<span class="project-description">Latejapride*</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Portfolio Grid Section 5 End -->
+
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer 1-->
+			<footer class="footer-1 footer reveal-side-navigation">
+				<div class="footer-top center">
+					<div class="row">
+						<div class="column width-12">
+							<div class="footer-logo">
+								<a href="index.html"><img src="imgs/logo-footer.png" alt="Nacho Logo" /></a>
+							</div>
+						</div>
+						<div class="column width-6 push-3">
+							<div class="footer-top-inner">
+								<p>Soy un dise&ntilde;ador gr&aacute;fico autodid&aacute;cta de Uruguay. Curioso por naturaleza, amante del dise&ntilde;o y de nuevos desaf&iacute;os que me hagan crecer tanto de manera personal como profesional. Esta es una selecci&oacute;n de algunos de mis trabajos en los &uacute;ltimos a&ntilde;os.</br></br><span class="moreSamples">Por muestras de landing pages <a href="http://landingsamples.rocksolidlabs.com/">click aqui</a>, por banners  <a href="http://bannersamples.rocksolidlabs.com/">click aqui</a></span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom center">
+					<div class="row">
+						<div class="column width-12">
+							<div class="footer-bottom-inner">
+								<p class="copyright no-margin-bottom">&copy; 2014 Ignacio Alpuin. Los contenidos presentados en este portfolio son propiedad de los clientes y/o marcas respectivas. Todos los derechos reservados.</p>
+							</div>
+						</div>
+					</div> 
+				</div>
+			</footer>
+			<!-- Footer 1 End -->
+
+		</div>
+	</div>	
+	
+	<script type="text/javascript">
+		
+		if( !!window.chrome){
+		console.log('fuckthisshit')
+			$('.animGallery').append('<a class="fancybox" href="imgs/portfolio/Anim_icons.webp" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Halloween_Vampi.webp" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Halloween_Zombie.webp" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Sheriff.webp" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_RubyConf.gif" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Horses.webp" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Illus_02.jpg" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Illus_modem_01.jpg" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Illus_modem_02.jpg" rel="gallery01"></a>')
+			//Chrome	
+		}else if( typeof InstallTrigger !== 'undefined' || Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0 ){
+			$('.animGallery').append('<a class="fancybox" href="imgs/portfolio/Anim_icons.png" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Halloween_Vampi.png" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Halloween_Zombie.png" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Sheriff.png" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_RubyConf.gif" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Horses.png" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Illus_02.jpg" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Illus_modem_01.jpg" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Illus_modem_02.jpg" rel="gallery01"></a>')
+			//Firefox & Safari
+		}else{
+			$('.animGallery').append('<a class="fancybox" href="imgs/portfolio/Anim_icons.gif" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Halloween_Vampi.gif" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Halloween_Zombie.gif" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Sheriff.gif" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_RubyConf.gif" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Anim_Horses.gif" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Illus_02.jpg" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Illus_modem_01.jpg" rel="gallery01"></a><a class="fancybox" href="imgs/portfolio/Illus_modem_02.jpg" rel="gallery01"></a>')
+			//Others
+		}
+	</script>	
+		
+</body>
+</html>
